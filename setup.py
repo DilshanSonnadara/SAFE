@@ -4,10 +4,12 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="safe-transformer",
-    version="0.0.4",
+    name="safe-transformer-fixed",
+    version="0.1.0",
     author="Aleksandra Gacek, Piotr Luboń",
     author_email="lubonp@student.mini.pw.edu.pl, gaceka@student.mini.pw.edu.pl",
+    maintainer="Dilshan Sonnadara",
+    maintainer_email="dilshan.sonnadara13@gmail.com",
     description="Build explainable ML models using surrogate models.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -16,7 +18,7 @@ setuptools.setup(
     install_requires=[
           'numpy',
           'ruptures',
-          'sklearn',
+          'scikit-learn',
           'pandas',
           'scipy',
           'kneed'
