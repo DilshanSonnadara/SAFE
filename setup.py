@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="safe-transformer-fixed",
-    version="0.1.0",
+    version="0.2.0",
     author="Aleksandra Gacek, Piotr Luboń",
     author_email="lubonp@student.mini.pw.edu.pl, gaceka@student.mini.pw.edu.pl",
     maintainer="Dilshan Sonnadara",

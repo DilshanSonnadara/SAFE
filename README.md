@@ -16,7 +16,7 @@ Article about SAFE on can be found [here](https://arxiv.org/abs/1902.11035).
 To install this library run:
 
 ```
-pip install safe-transformer
+pip install safe-transformer-fixed
 ```
 
 The only requirement is to have Python 3 installed on your machine.
