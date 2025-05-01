@@ -26,7 +26,7 @@ The only requirement is to have Python 3 installed on your machine.
 Sample code using SAFE transformer as part of scikit-learn pipeline:
 
 ```python
-from SafeTransformer import SafeTransformer
+from SafeTransformerFixed import SafeTransformer
 from sklearn.datasets import load_boston
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
